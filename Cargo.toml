@@ -4,6 +4,9 @@ version = "1.0.0"
 authors = ["Sibz <12050358+Sibz@users.noreply.github.com>"]
 edition = "2018"
 repository = "https://github.com/rustanigans/sha-to-hex"
+description = "Simple function to encode string using secret and return hex string"
+license = "MIT"
+license-file = "license.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

@@ -1,4 +1,4 @@
-use hex::encode;
+use const_hex::encode;
 use ring::hmac::{sign, Key, HMAC_SHA256};
 /// Encode msg using secret return hex string
 ///

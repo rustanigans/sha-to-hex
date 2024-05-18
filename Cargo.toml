@@ -1,6 +1,6 @@
 [package]
 name = "sha-to-hex"
-version = "1.0.3"
+version = "1.0.4"
 authors = ["Sibz <12050358+Sibz@users.noreply.github.com>"]
 edition = "2018"
 repository = "https://github.com/rustanigans/sha-to-hex"

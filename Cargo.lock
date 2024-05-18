@@ -215,7 +215,7 @@ dependencies = [
 
 [[package]]
 name = "sha-to-hex"
-version = "1.0.3"
+version = "1.0.4"
 dependencies = [
  "const-hex",
  "ring",

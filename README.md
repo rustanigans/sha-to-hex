@@ -3,9 +3,16 @@
 Simple function to encode string using secret and return hex string
 
 ```
-use sha_to_hex::get_sha256_hmac_as_hex_str as encode;
+use sha_to_hex::encode;
 
 let encoded = encode(msg, secret);
 ```
 
-For full usage see docs.rs: [get_sha256_hmac_as_hex_str](https://docs.rs/sha-to-hex/latest/sha_to_hex/fn.get_sha256_hmac_as_hex_str.html)
+To encode bytes use encode_bytes:
+```
+use sha_to_hex::encode_bytes;
+
+let encoded = encode_bytes(msg_as_bytes, secret_as_bytes);
+```
+
+For full usage see docs.rs: [encode](https://docs.rs/sha-to-hex/latest/sha_to_hex/fn.encode.html)
